@@ -5,7 +5,11 @@ def reverse_each_word(sentence)
   arr.each do |words|
     rev_arr << words.reverse!
   end
-    rev_arr*","
+    finalstr = ""
+    rev_arr.each do |words|
+      finalstr << words
+    end
+    finalstr
 end
 
 def reverse_each_word(sentence)
