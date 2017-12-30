@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
   rev_arr = []
   arr = sentence.split(" ")
   arr.collect do |words|
-    words.reverse!
+    words.reverse!*" "
   end
 end
