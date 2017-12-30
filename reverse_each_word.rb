@@ -7,5 +7,3 @@ def reverse_each_word(sentence)
   end
   rev_arr.join(",")
 end
-
-
