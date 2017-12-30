@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   arr.each do |words|
     rev_arr << words.reverse!
   end
-  return rev_arr.join("','")
+  return rev_arr.join(",")
 end
 
 def reverse_each_word(sentence)
